@@ -1,0 +1,3 @@
+By observing the test sample, we can see that every test with 1 being the first element will be a sortable list.
+This is the key to the problem as you have to choose an element whose indice is from 2 to n - 1 and it is greater than the two adjacent element. Therefore, with 1 not being at the front, it will be impossible to move 1 to the front as it is the smallest element. 
+On the other hand, if 1 is at the front, then the largest element is guaranted to be in the range of a[2] to a[n], ensuring there will always be a way to sort the given list.
